@@ -17,7 +17,7 @@ COPY --from=building /tmp/alertmanager /usr/local/bin/
 VOLUME /alertmanager
 VOLUME /etc/alertmanager
 ADD conf/config.yml /etc/alertmanager/
-ENTRYPOINT alertmanager -config.file=/etc/alertmanager/config.yml -storage.path=/alertmanager
+ENTRYPOINT /usr/local/bin/alertmanager -config.file=/etc/alertmanager/config.yml -storage.path=/alertmanager
 EXPOSE 9093
 
 
