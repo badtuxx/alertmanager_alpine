@@ -1,4 +1,4 @@
-# AlertManager-Alpine
+# AlertManager on Alpine
 
 
 ## To run this image, execute:
