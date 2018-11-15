@@ -1,9 +1,9 @@
 FROM alpine
 
 LABEL maintainer="jeferson@linuxtips.com.br"
-LABEL version="1.0"
+LABEL version="2.0"
 
-ENV alertmanager_version 0.11.0
+ENV alertmanager_version 0.15.3
 
 WORKDIR /alertmanager
 
