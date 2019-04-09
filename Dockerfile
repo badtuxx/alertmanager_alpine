@@ -3,7 +3,7 @@ FROM alpine
 LABEL maintainer="jeferson@linuxtips.com.br"
 LABEL version="2.0"
 
-ENV alertmanager_version 0.15.3
+ENV alertmanager_version 0.16.2
 
 WORKDIR /alertmanager
 
